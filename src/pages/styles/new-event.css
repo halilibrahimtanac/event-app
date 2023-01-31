@@ -1,0 +1,16 @@
+.new-event-container {
+    @apply w-full h-auto relative flex flex-col justify-center items-center gap-7
+}
+
+.new-event-form {
+    @apply w-[40%] h-auto relative 
+    flex flex-col justify-evenly items-center shadow-lg bg-white gap-4
+}
+
+.input {
+    @apply w-1/2 h-auto flex flex-col justify-center items-start
+}
+
+.text {
+    @apply w-full border-[1px] border-solid border-slate-300 outline-none p-2 text-xs text-gray-600
+}

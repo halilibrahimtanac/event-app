@@ -1,0 +1,33 @@
+.form {
+    @apply w-[40%] h-[40vh] relative 
+    flex flex-col justify-evenly items-center shadow-lg bg-white
+}
+
+.signup {
+    @apply w-[40%] h-[100vh] relative 
+    flex flex-col justify-evenly items-center shadow-lg bg-white
+}
+
+.input {
+    @apply w-1/2 h-auto flex flex-col justify-center items-start
+}
+
+.text {
+    @apply w-full border-[1px] border-solid border-slate-300 outline-none p-2 text-xs text-gray-600
+}
+
+.button {
+    @apply bg-purple-400 relative w-full p-1 text-white font-bold
+}
+
+.button:active {
+    @apply bg-purple-700
+}
+
+.extras {
+    @apply w-1/2 h-auto relative flex justify-between items-center
+}
+
+.remember {
+    @apply flex justify-between w-fit gap-1 items-center
+}

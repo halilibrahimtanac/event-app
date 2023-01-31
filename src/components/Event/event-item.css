@@ -1,0 +1,38 @@
+.event {
+    @apply h-auto flex flex-col justify-between items-center rounded-lg 
+    shadow-lg mx-auto
+}
+.event-img {
+    @apply w-full relative rounded-lg
+}
+
+.event-details {
+    @apply w-full h-auto relative flex flex-col justify-between items-start box-border p-3 gap-5
+}
+
+.event-header {
+    @apply w-full h-auto relative flex justify-between
+}
+
+.event-type {
+    @apply p-1 text-sm text-white font-bold rounded-3xl
+}
+
+.event-title {
+    @apply font-bold text-2xl
+}
+
+.event-footer {
+    @apply w-full h-auto relative flex justify-between items-center
+}
+
+.event-creator {
+    @apply w-1/2 h-auto relative flex justify-start items-center gap-2
+}
+.logo {
+    @apply w-7 h-7 relative
+}
+
+.event-participators {
+    @apply w-auto h-auto relative flex justify-between gap-1 text-sm items-center
+}

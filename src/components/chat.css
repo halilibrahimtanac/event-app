@@ -1,0 +1,38 @@
+.chat-container {
+    @apply w-1/3 h-[40vh] border-[1px] flex flex-col justify-between fixed bottom-0 right-0 z-10 bg-white
+}
+
+.messages {
+    @apply w-full h-auto flex flex-col justify-start overflow-scroll
+}
+
+.messages::-webkit-scrollbar {
+    display: none;
+}
+.single-message {
+    @apply w-1/3 h-auto relative my-3 flex flex-col justify-evenly items-start text-left mt-[5px] p-1 text-sm rounded-md bg-gray-200
+}
+.my {
+    @apply ml-auto bg-blue-400 text-white
+}
+
+.message-body {
+    width: 200px;
+    height: auto;
+    display: block;
+    position: relative;
+    white-space: initial;
+    word-break: break-all;
+}
+
+.input-container {
+    @apply w-1/2 h-auto flex mx-auto items-center gap-3
+}
+
+.message-input {
+    @apply w-full relative outline-none border-[1px] border-gray-300 box-border p-2 text-sm
+}
+
+.send-btn{
+    @apply w-9 h-9 bg-gray-300 rounded-full p-0 flex items-center justify-center text-xs
+}

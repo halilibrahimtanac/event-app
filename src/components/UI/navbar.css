@@ -1,0 +1,36 @@
+.navbar {
+    @apply w-full h-[10vh] border-b-[1px] border-gray-300 flex justify-evenly items-center
+}
+
+.navbar_buttons {
+    @apply w-auto h-auto relative border-gray-300 flex justify-between items-center gap-4
+}
+.notifications {
+    @apply w-auto h-auto
+}
+
+.notifications-menu {
+    @apply w-[250%] h-auto bg-slate-100 absolute hidden top-12 left-[-35%] z-10 divide-y-[1px] text-xs
+}
+
+.notifications-menu:hover {
+    @apply flex flex-col
+}
+
+.notifications:focus + .notifications-menu {
+    @apply flex flex-col
+}
+
+.red_dot {
+    @apply w-[14px] h-[14px] bg-red-600 rounded-full absolute top-[12%] left-[16%] text-[10px] text-white
+}
+
+.search-bar-container {
+    @apply w-auto h-auto flex justify-between items-center p-1 px-2 box-border border-[1px] border-solid border-slate-200
+}
+.search-bar-logo {
+    @apply w-4 h-4
+}
+.search-bar {
+    @apply w-full border-0 outline-none p-1 text-xs text-gray-600
+}

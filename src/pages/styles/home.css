@@ -1,0 +1,5 @@
+.home-container {
+    @apply w-full h-auto flex justify-center
+}
+
+

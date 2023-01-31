@@ -1,0 +1,30 @@
+.main-container {
+    @apply w-full h-[90vh] relative border-[1px] flex justify-center 
+}
+
+.chat-box {
+    @apply w-1/2 h-[75vh] relative border-[1px] top-[10%] flex flex-row justify-between
+}
+
+.users-side {
+    @apply w-1/3 h-full relative border-r-[1px] flex flex-col justify-start divide-y-[1px]
+}
+
+.chat-side {
+    @apply w-2/3 h-full relative flex flex-col
+}
+
+.single-user-item {
+    @apply w-full h-auto relative border-[1px] border-red-400 flex justify-between p-1 box-border
+}
+
+.text-msg {
+    @apply w-1/3 h-auto relative block mt-[5px] p-1 text-sm rounded-md
+}
+
+.user {
+    @apply ml-auto bg-blue-400 text-white text-left
+}
+.opposite {
+    @apply mr-auto bg-gray-300 text-left
+}

@@ -1,0 +1,19 @@
+.participators-container {
+    @apply w-[40vh] h-auto absolute flex flex-col justify-between border-[1px] left-[10vh] top-[15vh]
+}
+
+.single-participator {
+    @apply w-full h-auto flex justify-between items-center p-2
+}
+
+.participator-logo {
+    @apply w-[5vh] h-[5vh]
+}
+
+.remove-btn {
+    @apply w-auto h-[2vh] align-middle flex gap-1
+}
+
+.remove-btn img {
+    @apply w-[2vh] h-[2vh]
+}
